@@ -1,0 +1,239 @@
+.levels-main {
+    background-color: #202427;
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    text-align: center;
+    overflow: hidden;
+}
+
+/* logo  */
+.main-heading {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bolder;
+    /* color: #695aa6; */
+    color: white;
+    position: absolute;
+    left: 40px;
+    top: 20px;
+    font-size: 34px;
+    display: inline-block;
+}
+
+/* prgress bar */
+.container {
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 15px #00000033;
+    padding: 10px 15px;
+    margin-top: 50px;
+    width: 450px;
+    margin-bottom: 70px !important;
+    height: 104px;
+}
+
+.progress-heading {
+    font-weight: 500;
+    color: #777;
+    font-size: 12spx;
+}
+
+.info {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+
+.info h2 {
+    color: #777;
+    font-weight: 600;
+    font-size: 2.0em;
+}
+
+.bar {
+    margin-top: 2px;
+    width: 420px !important;
+    height: 7px;
+    border-radius: 45px;
+    background-color: #4d94fe3d;
+    overflow: hidden;
+}
+
+.progress {
+    height: 100%;
+    background-color: #4d94fe;
+    position: relative;
+    border-radius: 45px;
+    transition: 220ms;
+}
+
+/* end  */
+.div-main-centre {
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    /* height: 100vh; */
+    width: 60%;
+    align-items: center;
+}
+
+.div-main-centre p {
+    font-size: large;
+    color: white;
+}
+
+.btn-main {
+    width: 120px;
+    height: 43px;
+
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    /* background-color: #695aa6; */
+    background-color: transparent;
+    border: 1px solid white;
+
+    font-weight: 600;
+    font-size: large;
+    text-transform: none;
+}
+
+.btn-main:hover{
+    background-color: white !important;
+    color: #212529 !important;
+}
+
+.btn-skip {
+    border-radius: 20px;
+    position: absolute;
+    right: 40px;
+    top: 22px;
+}
+
+.btn-leader {
+    border: none;
+    border-radius: 20px;
+    position: absolute;
+    right: 180px;
+    width: auto;
+    padding: 5px 25px;
+    top: 22px;
+}
+
+.btn-restart {
+    border: none;
+    border-radius: 20px;
+    position: absolute;
+    right: 330px;
+    width: auto;
+    padding: 5px 25px;
+    top: 22px;
+}
+
+.btn-submit {
+    border-radius: 5px;
+    padding: 10px 20px;
+    height: 50px;
+}
+
+.input-group {
+    margin-top: 30px !important;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* width: 400px; */
+    margin-bottom: 20px;
+}
+
+.input {
+    width: 300px !important;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: large;
+    margin-right: 10px;
+}
+
+.wrongans {
+    color: rgb(240, 72, 72) !important;
+    font-size: 14px !important;
+    margin: 5px;
+}
+
+
+/* one */
+.one-progress {
+    width: 0%;
+}
+
+.note-img {
+    width: 400px;
+}
+
+
+/* two */
+
+.two-progress {
+    width: 20%;
+}
+
+.building-img {
+    width: 400px;
+    margin-right: 40px;
+}
+
+.div-main-centre ul {
+    text-align: left;
+    margin: 20px 0px;
+    font-size: large;
+    color: white;
+}
+
+.div-main-centre ul li {
+    margin: 10px;
+}
+
+.building-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 50px 0px;
+}
+
+
+/* three */
+.three-progress {
+    width: 40%;
+}
+
+.door-img {
+    width: 400px;
+    margin: 20px 0;
+}
+
+
+/* four */
+.four-progress {
+    width: 60%;
+}
+
+.room-img {
+    width: 500px;
+    margin: 20px 0;
+}
+
+
+/* five  */
+.five-progress {
+    width: 80%;
+}
+
+.poker-img {
+    width: 400px;
+    margin: 20px 0px;
+    margin-right: 20px;
+}
+
+.five-div {
+    width: 60% !important;
+}

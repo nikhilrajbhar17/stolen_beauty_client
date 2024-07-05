@@ -1,0 +1,242 @@
+body {
+    background-color: #212529;
+}
+
+.tasks {
+    z-index: 990;
+    position: relative;
+    min-height: 100vh;
+    text-align: center;
+    color: #fff;
+    background-size: cover;
+    background-position: center;
+    background-color: #212529;
+    -webkit-transition: .2s;
+    transition: .2s;
+    -webkit-transition-timing-function: linear;
+    transition-timing-function: linear;
+    /* overflow:auto; */
+}
+
+.one-tasks {
+    background-image: url(../images/unnote.jpg);
+}
+
+.two-tasks {
+    background-image: url(../images/unbuilding.jpg);
+}
+
+.three-tasks {
+    background-image: url(../images/undoor.jpg);
+}
+
+.four-tasks {
+    background-image: url(../images/unroom2.jpg);
+}
+
+.five-tasks {
+    background-image: url(../images/undark.jpg);
+}
+
+.tasks .overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -111;
+    min-height: 100%;
+    min-width: 100%;
+    background-image: -webkit-radial-gradient(48% 42%, 140% 110%, rgba(33, 37, 41, 0.5), rgba(33, 37, 41, 0.6), rgba(33, 37, 41, 0.7), rgba(33, 37, 41, 0.8), rgba(33, 37, 41, 0.93), #212529 55%, #212529 200%);
+    background-image: radial-gradient(140% 110% at 48% 42%, rgba(33, 37, 41, 0.5), rgba(33, 37, 41, 0.6), rgba(33, 37, 41, 0.7), rgba(33, 37, 41, 0.8), rgba(33, 37, 41, 0.93), #212529 55%, #212529 200%);
+}
+
+.tasks .tasks-content {
+    margin: auto;
+    /* position: absolute;
+    left: 50%;
+    top: 50%; */
+    /* -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%); */
+    /* transform: translate(-50%); */
+    width: 900px;
+    height: auto;
+    padding: 20px;
+}
+
+/* test */
+.tasks .tasks-content .tasks-title {
+    /* font-size: calc(25px + (50 - 25) * ((100vw - 300px) / (1300 - 300))); */
+    margin-top: 40px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.tasks .tasks-content .tasks-subtitle {
+    opacity: 1;
+    margin-bottom: 20px;
+}
+
+.tasks-subtitle ul {
+    margin: 40px 5px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+.tasks-subtitle ul li {
+    /* text-align: left; */
+}
+
+/* test */
+
+
+.tasks-title {
+    font-size: 3.2rem;
+}
+
+.tasks-subtitle {
+    font-size: large;
+    margin: auto
+}
+
+.note-newimg {
+    width: 300px;
+    margin-top: -30px;
+    margin-bottom: -10px;
+}
+
+.leader-building-img {
+    width: 400px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.tasks-nav h3 {
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.tasks-nav button {
+    margin-right: 30px;
+    margin-top: 10px;
+    border-radius: 20px;
+    color: white;
+
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    /* background-color: #695aa6; */
+    background-color: transparent;
+    border: 1px solid white;
+
+    font-weight: 600;
+    font-size: large;
+    text-transform: none;
+
+    border-radius: 20px;
+    width: 90px;
+    height: 40px;
+}
+
+.tasks-nav button:hover, .tasks-nav button:focus {
+    background-color: white;
+    color: #212529;
+}
+
+
+@media (max-width:1000px) {
+    .tasks-title {
+        font-size: 2.5rem;
+    }
+
+    .tasks-subtitle {
+        font-size: medium;
+        margin: auto;
+    }
+
+    .tasks .tasks-content {
+        position: absolute;
+        width: auto;
+        margin: 10px 30px;
+    }
+
+    .note-newimg {
+        width: 300px;
+        margin-top: -30px;
+        margin-bottom: -10px;
+    }
+
+    .leader-building-img {
+        width: 330px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width:700px) {
+    .tasks-input {
+        width: 200px !important;
+        font-size: medium;
+    }
+}
+
+@media (max-width:500px) {
+    .tasks-title {
+        font-size: 2rem;
+        margin: 20px 20px !important;
+    }
+
+    .tasks-subtitle {
+        font-size: 15px;
+    }
+
+    .tasks .tasks-content {
+        position: absolute;
+        width: auto;
+        margin: 5px 0px;
+    }
+
+    .note-newimg {
+        width: 260px;
+        margin-top: -15px;
+    }
+
+    .tasks-input {
+        width: 200px !important;
+        font-size: medium;
+    }
+
+    .tasks-submit-btn {
+        font-size: medium;
+    }
+
+    .tasks-nav button {
+        margin-right: 12px;
+        margin-top: 7px;
+
+        font-size: medium;
+        width: 70px;
+        height: 32px;
+    }
+
+    .tasks-nav h3 {
+        margin-left: 18px;
+    }
+
+    .leader-building-img {
+        width: 280px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width:400px) {
+    .tasks-input{
+        width: 180px !important;
+        font-size: medium;
+    }
+    .tasks-submit-btn{
+        width: 100px;
+    }
+}
